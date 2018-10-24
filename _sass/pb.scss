@@ -1,0 +1,64 @@
+/* Current Politburo Page */
+.politburo {
+	margin-top: 20px;
+	> tbody {
+		> tr {
+			margin-top: 20px;
+			> td:nth-child(1) {
+				vertical-align: top;
+			}
+			> td:nth-child(2) {
+				padding: 10px 20px;
+				background-color: white;
+			}
+			> td {
+				> .title {
+					font-size: 18px;
+					font-weight: 600;
+					margin: 5px 0px 5px;
+				}
+				> .name {
+					font-style: italic;
+					font-size: 15px;
+				}
+
+				> .email {
+
+					font-weight: 300;
+					font-size: 14px;
+					margin: 5px 0 10px;
+				}
+			}
+		}
+	}
+	img {
+		height: 300px;
+		width: 300px;
+		object-fit: cover;
+	}
+}
+
+/* Former Politburo Page */
+.pbroster {
+	background: white;
+	padding: 10px;
+	margin: 10px 0 20px;
+	border: 1px solid #CCC;
+
+	> tbody {
+		> tr {
+			border-bottom: 1px solid black;
+
+			> td.title {
+				font-size: 16px;
+				margin-top: 5px;
+				font-weight: 600;
+			}
+			> td.name {
+				font-size: 14px;
+				font-weight: 300;
+				margin-bottom: 20px;
+			}
+		}
+	}
+}

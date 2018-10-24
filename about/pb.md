@@ -8,18 +8,58 @@ title: Politburo
 
 The politburo is the executive committee of the CSUA.
 
+
+{% for pb_roster in site.data.pb %}
+{% if pb_roster.semester == "Fall 2018" %}
+{% assign titles = "President, VP, Indrel, Secretary/Treasurer, External Events, Internal Events, Outreach" | split:", " %}
+{% assign unames = "president, vp, indrel, treasurer, externalevents, internalevents, outreach" | split:", " %}
+<table class="politburo">
+{% for title in titles %}
+{% assign uname = unames[forloop.index0] %}
+{% assign fullname = pb_roster[uname] %}
+{% assign firstname = pb_roster[uname] | split:" " | first %}
+<tr>
+<td>
+<img class="photo-frame" src="">
+</td>
+<td>
+<div class="title">{{ title }}</div>
+<div class="name">{{ fullname }}</div>
+<div class="email">{{ uname }}@csua.berkeley.edu</div>
+<div markdown="1">
+The President leads meetings and represents the CSUA in its duties as the
+undergraduate computer science students' representative body. The President
+communicates with the University, faculty, staff, and other student
+organizations.
+
+Please contact {{ firstname }} for general questions or concerns about the CSUA.
+</div>
+</td>
+</tr>
+{% endfor %}
+{% endif %}
+{% endfor %}
+</table>
+
 ## Historical PB
 
-(Cuz caleb can't remember)
-
-|     | Pres | VP  | Indrel | Sectreas | External | Internal | Outreach |
-| --- | ---  | --- | ---    | ---      | ---      | ---      | ---      |
-| Fall 2014 | Collin | Alex | Sherry | Claire | Jeff | Neil | Kara |
-| Spring 2015 | Claire Lieu | Robert Chang | Jessie Salas | Ana???? | Ryan | Megan | Michelle (Not Hsueh)|
-|Fall 2015|Claire Lieu|Austin Kim|Jason Tu|Ana Shuler|Megan Zhu|Susanna Souv|Eranda Bregasi|
-|Spring 2016|Ana Shuler|Caleb Wyllie|Jason Tu|Ana/Yitz Deng|Kara Gieseking|Michelle Hsueh|Sid Masih|
-|Fall 2016|Megan Zhu|Caleb Wyllie|Sid Masih|Yitz Deng|Barak Zhou|Neil Lingarkar|Julie Chen|
-|Spring 2017|Megan Zhu|Caleb Wyllie|Sid Masih|Yitz Deng|Barak Zhou|Neil Lingarkar|Michelle Hsueh|
-|Fall 2017|~~Megan Zhu~~ Jonathan Tan|~~Jonathan Tan~~ Robert Quitt|Eric Hou|Yitz Deng|Ray Pan|~~Neil Lingarkar~~  Jason Ji|~~Emily Gosti~~ ~~Robert Quitt~~ Jessica Kuo|
-|Spring 2018|Megan Zhu|Robert Quitt|Anna Brewer|Ray Pan|Daniel Wu|Arthur Kazantsev|Jessica Kuo|
-|Fall 2018|Daniel Wu|Mark Hill|Ben Wu|Ray Pan|Sophie Wen|Ani Nrusimha|Jessica Kuo|
+<table class="pbroster">
+{% for pb in site.data.pb %}
+<tr>
+<th markdown="1" colspan="2">
+**{{ pb.semester }}**
+</th>
+</tr>
+{% for title in titles %}
+<tr>
+<td class="title">
+{{ title }}
+</td>
+<td class="name">
+{% assign uname = unames[forloop.index0] %}
+{{ pb[uname] }}
+</td>
+</tr>
+{% endfor %}
+{% endfor %}
+</table>
