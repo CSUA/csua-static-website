@@ -8,11 +8,12 @@ title: Politburo
 
 The politburo is the executive committee of the CSUA.
 
+{% assign titles = "President, VP of Tech, VP of Industry Relations, Secretary/Treasurer, External Events Coordinator, Internal Events Coordinator, Outreach Chair" | split:", " %}
+{% assign unames = "president, vp, indrel, treasurer, externalevents, internalevents, outreach" | split:", " %}
 
 {% for pb_roster in site.data.pb %}
 {% if pb_roster.semester == "Fall 2018" %}
-{% assign titles = "President, VP, Indrel, Secretary/Treasurer, External Events, Internal Events, Outreach" | split:", " %}
-{% assign unames = "president, vp, indrel, treasurer, externalevents, internalevents, outreach" | split:", " %}
+
 <table class="politburo">
 {% for title in titles %}
 {% assign uname = unames[forloop.index0] %}

@@ -3,7 +3,7 @@ title: Welcome to the CSUA!
 layout: page
 ---
 
-<div class="text" id="texttitle">
+<div class="block" id="texttitle">
 
 The Computer Science Undergraduate Association supports the undergraduate
 computer science student body at UC Berkeley and acts as an entry point

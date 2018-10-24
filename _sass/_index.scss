@@ -1,6 +1,10 @@
 nav {
 	> div#logo {
 		width: 100px;
+		display: inline-block;
+		@include media-query($on-palm) {
+			width: 50px;
+		}
 	}
 }
 
@@ -10,5 +14,23 @@ nav {
 		padding: 15px;
 		background-color: #FAFAFA;
 		margin-bottom: 20px;
+	}
+}
+
+.wrapper {
+	.columnleft {
+		float: left;
+	}
+	.columnright {
+		float: right;
+	}
+	.columnleft, .columnright {
+		display: inline-block;
+		width: 49%;
+
+		@include media-query($on-palm) {
+			width: 100%;
+			display: block;
+		}
 	}
 }

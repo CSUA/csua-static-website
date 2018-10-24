@@ -1,5 +1,2 @@
 ignore:
-  - README.md
-
-logo: /assets/images/CSUA.jpg
-url: https://www.csua.berkeley.edu:9443
+  - README
