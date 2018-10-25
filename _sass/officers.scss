@@ -1,6 +1,26 @@
 $officer-width-mobile: 125px;
 $officer-width: 200px;
 
+.officer-calendar {
+	overflow-x: auto;
+	margin-bottom: 30px;
+
+	table {
+		width: 100%;
+		tr {
+			&:nth-child(even) {
+				background-color: #f2f2f2;
+			}
+		}
+		.time {
+			min-width: 80px;
+		}
+	}
+	.root-staff {
+		font-family: monospace;
+	}
+}
+
 .roster {
 	display: flex;
 	flex-direction: row;

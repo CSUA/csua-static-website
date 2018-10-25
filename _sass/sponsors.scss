@@ -1,0 +1,30 @@
+$sponsor-width: 160px;
+$sponsor-margin: 5px;
+$sponsor-padding: 5px;
+.sponsors {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	.sponsor {
+		width: $sponsor-width;
+		margin: $sponsor-margin/2;
+		padding: $sponsor-padding;
+		background: white;
+		box-shadow: 0 2px 2px 0 rgba(38,50,56,.28), 0 3px 1px -2px rgba(38,50,56,.24), 0 1px 5px 0.5px rgba(38,50,56,.32);
+
+		@include media-query($on-palm) {
+			width: 125px;
+		}
+
+		.sponsor-image {
+			height: $sponsor-width;
+			object-fit: cover;
+		}
+		.sponsor-name {
+			text-align: center;
+		}
+	}
+
+}

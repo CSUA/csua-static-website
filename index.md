@@ -26,7 +26,7 @@ lounge (341\* Soda).
 </div>
 
 <div markdown="1" id="officer-image">
-![blah]({{site.baseurl}}{% link assets/images/tushar_photoshoots/Officers_FA16.jpg %})
+![CSUA Officers at Hearst Mining Circle]({{site.baseurl}}{% link assets/images/tushar_photoshoots/Officers_FA16.jpg %})
 </div>
 
 <div markdown="1" class="block">

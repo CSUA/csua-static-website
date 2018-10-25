@@ -1,0 +1,8 @@
+jq command to convert old database
+
+cat datadump.json | jq '[. | map(select(.model=="db_data.officer")) | .[].fields]' > officers.json
+
+jq command to convert json to csv, when the json is structured as a list of
+objects
+
+cat officers.json | jq -r '.[] | [.[]] | @csv' > officers.csv
