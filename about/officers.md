@@ -33,7 +33,7 @@ a job? Want to find your community? Come visit us in 311 Soda!
 {{ time }}
 </td>
 {% for day in days %}
-<td>
+<td class="officer-cell">
 {% assign office_hours = shortdays[forloop.index0] | append:" " | append:time %}
 {% for officer in site.data.officers5 -%}
 {% if officer.office_hours == office_hours -%}
@@ -64,11 +64,11 @@ computing resources. Come talk to us!
 {% if officer.is_active == "true" %}
 <div class="officer">
 <div class="photo-frame">
-{% if officer.photo2 %}
-<img class="single" src="{{ officer.photo1 }}">
+{% if officer.photo2 == nil %}
+<img class="single" src="https://www.csua.berkeley.edu/media/{{ officer.photo1 }}">
 {% else %}
 <img class="photoone" src="https://www.csua.berkeley.edu/media/{{ officer.photo1 }}">
-<img class="phototwo" src="{{ officer.photo2 }}">
+<img class="phototwo" src="https://www.csua.berkeley.edu/media/{{ officer.photo2 }}">
 {% endif %}
 {% if officer.root_staff == "true" %}
 <div class="root-staff-banner">Root</div>

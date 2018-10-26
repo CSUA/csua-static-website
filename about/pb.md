@@ -2,11 +2,16 @@
 title: Politburo
 ---
 
+The Politburo consists of the seven elected officers of the CSUA. They are the
+governing body of the CSUA and a unique group of people who are eager to talk
+to you about the CSUA. You can contact the Politburo at
+politburo@csua.berkeley.edu.
+
+![](https://www.csua.berkeley.edu:8080/static/images/pb_fa18.jpg)
+
 > Komrade! Let it be known that, in the era of Glasnost, the Ex-comm of the CSUA was renamed by the will of the people! That is how the Ex-comm was become the politbyuro, or politburo in the weak tongue of the American demons! All praise the people's will! All praise the mighty politburo!
 
 -- CSUA Encyclopedia
-
-The politburo is the executive committee of the CSUA.
 
 {% assign titles = "President, VP of Tech, VP of Industry Relations, Secretary/Treasurer, External Events Coordinator, Internal Events Coordinator, Outreach Chair" | split:", " %}
 {% assign unames = "president, vp, indrel, treasurer, externalevents, internalevents, outreach" | split:", " %}
@@ -14,7 +19,8 @@ The politburo is the executive committee of the CSUA.
 {% for pb_roster in site.data.pb %}
 {% if pb_roster.semester == "Fall 2018" %}
 
-<table class="politburo">
+<div class="politburo">
+<table>
 {% for title in titles %}
 {% assign uname = unames[forloop.index0] %}
 {% assign fullname = pb_roster[uname] %}
@@ -41,26 +47,4 @@ Please contact {{ firstname }} for general questions or concerns about the CSUA.
 {% endif %}
 {% endfor %}
 </table>
-
-## Historical PB
-
-<table class="pbroster">
-{% for pb in site.data.pb %}
-<tr>
-<th markdown="1" colspan="2">
-**{{ pb.semester }}**
-</th>
-</tr>
-{% for title in titles %}
-<tr>
-<td class="title">
-{{ title }}
-</td>
-<td class="name">
-{% assign uname = unames[forloop.index0] %}
-{{ pb[uname] }}
-</td>
-</tr>
-{% endfor %}
-{% endfor %}
-</table>
+</div>

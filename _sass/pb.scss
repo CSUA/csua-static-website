@@ -1,7 +1,10 @@
+$pb-image-width: 300px;
+$pb-image-width-mobile: 125px;
 /* Current Politburo Page */
 .politburo {
 	margin-top: 20px;
-	> tbody {
+	overflow-x: auto;
+	tbody {
 		> tr {
 			margin-top: 20px;
 			> td:nth-child(1) {
@@ -32,9 +35,13 @@
 		}
 	}
 	img {
-		height: 300px;
-		width: 300px;
+		height: $pb-image-width;
+		width: $pb-image-width;
 		object-fit: cover;
+		@include media-query($on-palm) {
+			width: $pb-image-width-mobile;
+			height: $pb-image-width-mobile;
+		}
 	}
 }
 

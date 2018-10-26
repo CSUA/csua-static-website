@@ -7,6 +7,7 @@ $officer-width: 200px;
 
 	table {
 		width: 100%;
+		border-spacing: 0;
 		tr {
 			&:nth-child(even) {
 				background-color: #f2f2f2;
@@ -15,9 +16,11 @@ $officer-width: 200px;
 		.time {
 			min-width: 80px;
 		}
-	}
-	.root-staff {
-		font-family: monospace;
+		.officer-cell {
+			.root-staff {
+				font-family: monospace;
+			}
+		}
 	}
 }
 
@@ -62,6 +65,7 @@ $officer-width: 200px;
 		font-size: 14px;
 	}
 	.blurb {
+		line-height: 1;
 		font-size: 15px;
 		font-weight: 300;
 		margin-top: 10px;
@@ -90,5 +94,8 @@ $officer-width: 200px;
 		width: 120px;
 		box-shadow: 0 0 3px rgba(0,0,0,0.3);
 		transform: rotate(-45deg);
+		@include media-query($on-palm) {
+			left: 35px;
+		}
 	}
 }
