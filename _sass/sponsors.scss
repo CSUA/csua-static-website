@@ -1,4 +1,5 @@
 $sponsor-width: 160px;
+$sponsor-width-mobile: 80px;
 $sponsor-margin: 5px;
 $sponsor-padding: 5px;
 .sponsors {
@@ -15,16 +16,28 @@ $sponsor-padding: 5px;
 		box-shadow: 0 2px 2px 0 rgba(38,50,56,.28), 0 3px 1px -2px rgba(38,50,56,.24), 0 1px 5px 0.5px rgba(38,50,56,.32);
 
 		@include media-query($on-palm) {
-			width: 125px;
+			width: $sponsor-width-mobile;
 		}
 
 		.sponsor-image {
-			height: $sponsor-width;
-			object-fit: cover;
+			img {
+				height: $sponsor-width;
+				width: $sponsor-width;
+				object-fit: contain;
+				@include media-query($on-palm) {
+					height: $sponsor-width-mobile;
+				}
+			}
 		}
 		.sponsor-name {
 			text-align: center;
+			font-weight: 600;
+		}
+		.sponsor-description {
+			@include media-query($on-palm) {
+				font-size: 14px;
+				line-height: 1.125;
+			}
 		}
 	}
-
 }

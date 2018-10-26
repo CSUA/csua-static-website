@@ -35,16 +35,13 @@ a job? Want to find your community? Come visit us in 311 Soda!
 {% for day in days %}
 <td class="officer-cell">
 {% assign office_hours = shortdays[forloop.index0] | append:" " | append:time %}
-{% for officer in site.data.officers5 -%}
-{% if officer.office_hours == office_hours -%}
+{% assign officers = site.data.officers5 | where:"office_hours",office_hours %}
+{% for officer in officers %}
 <div class="{% if officer.root_staff == "true" %}root-staff{% endif %}">
 {% if officer.root_staff == "true" %}$&nbsp;{% endif -%}
 {{ officer.first_name }}&nbsp;{{ officer.last_name | slice: 0 }}
 </div>
 {{ officer.tutor_subjects }}
-{% if officer.tutor_subjects %}
-{% endif -%}
-{% endif -%}
 {% endfor %}
 </td>
 {% endfor %}

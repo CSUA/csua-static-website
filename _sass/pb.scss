@@ -3,44 +3,36 @@ $pb-image-width-mobile: 125px;
 /* Current Politburo Page */
 .politburo {
 	margin-top: 20px;
-	overflow-x: auto;
-	tbody {
-		> tr {
-			margin-top: 20px;
-			> td:nth-child(1) {
-				vertical-align: top;
-			}
-			> td:nth-child(2) {
-				padding: 10px 20px;
-				background-color: white;
-			}
-			> td {
-				> .title {
-					font-size: 18px;
-					font-weight: 600;
-					margin: 5px 0px 5px;
-				}
-				> .name {
-					font-style: italic;
-					font-size: 15px;
-				}
-
-				> .email {
-
-					font-weight: 300;
-					font-size: 14px;
-					margin: 5px 0 10px;
-				}
+	.pb-member {
+		clear: both;
+		img {
+			float: left;
+			padding: 0 1em 1em 0;
+			height: $pb-image-width;
+			width: $pb-image-width;
+			object-fit: cover;
+			@include media-query($on-palm) {
+				width: $pb-image-width-mobile;
+				height: $pb-image-width-mobile;
+				padding-bottom: 0;
 			}
 		}
-	}
-	img {
-		height: $pb-image-width;
-		width: $pb-image-width;
-		object-fit: cover;
-		@include media-query($on-palm) {
-			width: $pb-image-width-mobile;
-			height: $pb-image-width-mobile;
+		.text {
+			.title {
+				font-size: 18px;
+				font-weight: 600;
+				margin: 5px 0px 5px;
+			}
+			.name {
+				font-style: italic;
+				font-size: 15px;
+			}
+			.email {
+				font-weight: 300;
+				font-size: 12px;
+				margin: 5px 0 10px;
+				color: gray;
+			}
 		}
 	}
 }

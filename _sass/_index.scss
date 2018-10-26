@@ -1,13 +1,40 @@
 nav {
-	> div#logo {
-		width: 100px;
-		display: inline-block;
+	#logo {
+		float: left;
+		img {
+			width: 100px;
+			height: 100px;
+			object-fit: contain;
+			padding-right: 1em;
+		}
 		@include media-query($on-palm) {
-			width: 50px;
+			a {
+				pointer-events: none;
+			}
+			img {
+				float: none;
+				height: 56px;
+				width: 56px;
+				padding: 0;
+			}
+		}
+	}
+	&:hover {
+		@include media-query($on-palm) {
+			#logo {
+				padding-right: 100px;
+				padding-left: 50px;
+				a {
+					pointer-events: all;
+				}
+				img {
+					width: 100px;
+					height: 100px;
+				}
+			}
 		}
 	}
 }
-
 .page-content {
 	.block {
 		border: 1px solid #CCC;
