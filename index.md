@@ -11,6 +11,23 @@ to industry.
 
 </div>
 
+<div markdown="1" class="block" id="upcoming-events">
+
+# Upcoming Events
+
+{% for event in site.data.events %}
+<div class="event">
+<div class="event-title">
+<a href="{{ event.link }}">
+{{ event.title }}
+</a>
+</div>
+<div class="event-time">{{ event.time }}</div>
+<div class="event-location">{{ event.location }}</div>
+</div>
+{% endfor %}
+</div>
+
 <div class="column columnleft">
 
 <div markdown="1" class="block">
