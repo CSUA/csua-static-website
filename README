@@ -1,3 +1,16 @@
+Getting started:
+
+Install jekyll:
+
+$ gem install bundler jekyll
+
+Serve files:
+
+$ bundle exec jekyll serve
+
+
+Misc commands
+
 jq command to convert old database
 
 cat datadump.json | jq '[. | map(select(.model=="db_data.officer")) | .[].fields]' > officers.json
