@@ -170,6 +170,27 @@ pre {
     }
 }
 
+/**
+ * Navbar Wrapper
+ */
+.nav-wrapper {
+	padding-right: $spacing-unit;
+	padding-left: $spacing-unit;
+	width: 100%;
+	position: static;
+	@extend %clearfix;
+
+	@include media-query($on-laptop) {
+		padding-right: $spacing-unit / 2;
+		padding-left: $spacing-unit / 2;
+    }
+    
+    @include media-query($on-palm) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
 
 
 /**

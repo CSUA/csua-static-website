@@ -8,7 +8,8 @@ title: Historical PB
 <table class="pbroster">
 {% for pb in site.data.pb %}
 <tr>
-<th markdown="1" colspan="2" class="semester">
+<th markdown="1" colspan="4" class="semester">
+<br>
 **{{ pb.semester }}**
 </th>
 </tr>

@@ -3,10 +3,21 @@
  */
 .site-header {
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 48px;
+    width: 100%;
+    background-color: #003F72;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+
+    @include media-query($on-palm) {
+        position: absolute;
+        width: 100%;
+        float: none;
+        background-color: white;
+        border-bottom: 0px;
+        align-content: center;
+    }
 }
 
 .site-title {
@@ -23,15 +34,16 @@
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
+    float: none;
+    line-height: 80px;
+    width: 100%;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: white;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -41,26 +53,34 @@
     }
 
     @include media-query($on-palm) {
+        
         position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
+        width: 100%;
+        top: 0px;
+        align-content: center;
+        //float: left;
+        // padding-right: 2%;
+        // padding-left: 2%;
+        // margin-left: 5px;
+        // margin-right: 5px;
+        background-color: #003F72;
+        //border: 1px solid $grey-color-light;
+        border-radius: 0px;
+        text-align: center;
 
         .menu-icon {
+            float: left;
             display: block;
             float: right;
-            width: 36px;
-            height: 26px;
+            height: 100px;
+            width: 100px;
             line-height: 0;
-            padding-top: 10px;
-            text-align: center;
+            padding-top: 2px;
+            box-align: center;
 
             > svg {
-                width: 18px;
-                height: 15px;
+                width: 10%;
+                height: 10px;
 
                 path {
                     fill: $grey-color-dark;
@@ -162,6 +182,7 @@
  * Page content
  */
 .page-content {
+    padding-top: 150px;
     padding: $spacing-unit 0;
 }
 
@@ -198,9 +219,11 @@
 }
 
 .post-title {
+    margin-top: 75px;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+	text-align: center;
 
     @include media-query($on-laptop) {
         font-size: 36px;
