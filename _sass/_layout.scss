@@ -7,6 +7,9 @@
     width: 100%;
     background-color: #003F72;
 
+    // keep nav/header above all other elements
+    z-index: 1;
+
     // Positioning context for the mobile navigation icon
     position: fixed;
 
