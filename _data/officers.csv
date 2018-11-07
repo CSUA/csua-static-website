@@ -1,37 +1,31 @@
-first_name,last_name,office_hours,photo1,photo2,blurb,root_staff,tutor_subjects,is_active
-Megan,Zhu,Fri 5-6 PM,images/officers/Megan_Zhu.png,images/officers/Megan_Zhu_nJ6h3Kh.png,"Hello! I'm a 4th year CS major, so this is my last semester here. Whoo!!... :(. I enjoy eating food, League of Legends, hanging at the CSUA, and CS of course :~). If you happen to be taking CS184 this semester, catch me in my section for my first semester",false,,false
-Caleb,Wyllie,N/A,images/officers/Caleb_Wyllie_AdlQdMQ.jpg,images/officers/Caleb_Wyllie_6l9rNvJ.gif,'; DROP TABLE blurbs; --,true,,true
-Neil,Lingarkar,Mon 3-4 PM,images/officers/Neil_Lingarkar.jpg,,Abs not aws,false,,true
-Michelle,Hsueh,Wed 6-7 PM,images/officers/Michelle_Hsueh_OzqLreG.jpg,images/officers/Michelle_Hsueh_32F31td.gif,Two cats are on a roof. Which one slides off first? The one with the smaller μ (mew)! (=^ ◡ ^=),false,,true
-Juntai,Zheng,Mon 12-1 PM,images/officers/Juntai_Zheng_CMp7cJA.jpg,images/officers/Juntai_Zheng_212DqLB.jpg,I code like I play the drums: I don't know how to play drums,false,,true
-Loren,McIntyre,N/A,images/officers/Loren_McIntyre_j6KcnCG.jpeg,images/officers/Loren_McIntyre_qQ6R4bS.jpeg,Things persist in not being what they seem.,true,,true
-Ray,Pan,Wed 11-12 PM,images/officers/Ray_Pan_zZHOkAH.JPG,,eecs,true,,true
-Jonathan,Tan,Fri 6-7 PM,images/officers/Jonathan_Tan_hVyEgu3.JPG,images/officers/Jonathan_Tan_W67jznu.gif,grand blue is a diving manga,true,,true
-Yannan,Tuo,N/A,images/officers/Yannan_Tuo.jpg,,Will sing for food (will sing regardless),false,,true
-Jimmy,Kim,Fri 1-2 PM,images/officers/Jimmy_Kim_CfXapky.jpg,images/officers/Jimmy_Kim_cOxgTdC.png,I play children's card games.,false,,true
-Jessica,Kuo,Mon 2-3 PM,images/officers/Jessica_Kuo_NmIX6fU.png,images/officers/Jessica_Kuo_ncAh6MU.png,I'm a potato.,false,,true
-Benjamin,Li,Fri 3-4 PM,images/officers/Benjamin_Li_K6090EP.jpg,images/officers/Benjamin_Li_yhVGQsf.gif,Ask me about Super Smash Bros. Melee :D,false,,true
-Robert,Quitt,Tues 4-5 PM,images/officers/Robert_Quitt.jpg,images/officers/Robert_Quitt_GdY2Suo.jpg,"I'd just like to interject for a moment... what you're referring to as CS in fact, EE/CS, or as I've recently taken to calling it, EE+CS",true,,true
-Jason,Yeung,Wed 3-4 PM,images/officers/Jason_Yeung_HNWSxwz.jpg,images/officers/Jason_Yeung_TGqboZM.jpg,Fluffy puppers are pretty alright.,false,,true
-Mark,Hill,Mon 10-11AM,images/officers/Mark_Hill.jpg,,$BLURB,true,,true
-Teela,Huff,Tues 3-4 PM,images/officers/Teela_Huff_cU2I1JA.jpg,images/officers/Teela_Huff.png,bröther may i cöde for öats,false,,false
-Nithin,Raghavan,Wed 1-2 PM,images/officers/Nithin_Raghavan.png,,好铁不打钉，好男不当兵,true,,true
+first_name,last_name,office_hours,photo1,photo2,blurb,root_staff,tutor_subjects,enabled
+Neil,Lingarkar,Mon 5-6 PM,images/officers/Neil_Lingarkar.jpg,,Alaan Boosting Services,false,,true
+Michelle,Hsueh,Tues 3-4 PM,images/officers/Michelle_Hsueh_OzqLreG.jpg,images/officers/Michelle_Hsueh_32F31td.gif,Two cats are on a roof. Which one slides off first? The one with the smaller μ (mew)! (=^ ◡ ^=),false,,true
+Juntai,Zheng,Tues 4-5 PM,images/officers/Juntai_Zheng_CMp7cJA.jpg,images/officers/Juntai_Zheng_212DqLB.jpg,"Passing test cases is easy. Every time I pass one, I think yes. Every time I don't, I think no.",false,,true
+Ray,Pan,Thu 5-6 PM,images/officers/Ray_Pan_zZHOkAH.JPG,,Sometimes I do something... I think,true,,true
+Jonathan,Tan,Thu 4-5 PM,images/officers/Jonathan_Tan_hVyEgu3.JPG,images/officers/Jonathan_Tan_W67jznu.gif,grand blue is a diving manga,true,,true
+Yannan,Tuo,Mon 4-5 PM,images/officers/Yannan_Tuo.jpg,,Will sing for food (will sing regardless),false,,true
+Jimmy,Kim,Fri 6-7 PM,images/officers/Jimmy_Kim_CfXapky.jpg,images/officers/Jimmy_Kim_cOxgTdC.png,I play children's card games.,false,,true
+Jessica,Kuo,Thu 1-2 PM,images/officers/Jessica_Kuo_NmIX6fU.png,images/officers/Jessica_Kuo_ncAh6MU.png,I'm a potato.,false,,true
+Robert,Quitt,Mon 10-11 AM,images/officers/Robert_Quitt.jpg,images/officers/Robert_Quitt_GdY2Suo.jpg,"I'd just like to interject for a moment... what you're referring to as CS in fact, EE/CS, or as I've recently taken to calling it, EE+CS",true,,true
+Jason,Yeung,Wed 2-3 PM,images/officers/Jason_Yeung_HNWSxwz.jpg,images/officers/Jason_Yeung_TGqboZM.jpg,Fluffy puppers are pretty alright.,false,,true
+Mark,Hill,Wed 2-3 PM,images/officers/Mark_Hill.jpg,,$BLURB,true,,true
+Nithin,Raghavan,Mon 12-1 PM,images/officers/Nithin_Raghavan.png,,"If you read this, I'll give you 15 cents",true,,true
 Arthur,Kazantsev,Tues 6-7 PM,images/officers/Arthur_Kazantsev_WjOStbx.jpg,,I pour the milk before adding cereal,false,,true
-Leon,Ming,Wed 12-1 PM,images/officers/Leon_Ming.png,,Would you like some lemon gin?,false,,true
-Charles,Hager,Tues 1-2 PM,images/officers/Charles_Hager.jpg,,$BLURB,false,,true
-Starr,Yang,Thu 2-3 PM,images/officers/Starr_Yang_zM1nukL.jpg,,still want to be Eric Hou,false,,true
-Joshua,Yang,Tues 5-7 PM,images/officers/Joshua_Yang.png,images/officers/Joshua_Yang_c0yoEEz.png,Will beatbox for boba!,false,,true
-Rene,Gamino,N/A,images/officers/Rene_Gamino.jpg,,Already missing lectures.,false,,false
-Benjamin,Wu,Wed 2-3 PM,images/officers/Benjamin_Wu.jpg,,im a cat who loves to snooze,false,,true
-Catherine,Cang,Mon 11-12 PM,images/officers/Catherine_Cang.jpg,,Searching for good cat videos/pictures,false,,true
-Sophie,Wen,Fri 2-3 PM,images/officers/Sophie_Wen.png,,"Now, out of intellectual curiosity,",false,,true
-Anna,Brewer,Wed 4-5 PM,images/officers/Anna_Brewer_a9leDeh.jpg,images/officers/Anna_Brewer.png,#FFFFFF,false,,true
-Daniel,Wu,Thu 6-7 PM,images/officers/Daniel_Wu.jpg,images/officers/Daniel_Wu_mU4Gk1E.jpg,I excel at manual labor and soul crushing work,false,,true
-Claudia,Tse,Tues 2-3 PM,images/officers/Claudia_Tse.png,,/╲/\╭( ͡° ͡° ͜ʖ ͡° ͡°)╮/\╱\,false,,true
-Justin,Cheng,Mon 1-2 PM,images/officers/Justin_Cheng_GFAHVhN.jpg,,$BLURB,false,,true
-Jesse,Ou,Mon 5-6 PM,images/officers/Jesse_Ou.jpg,images/officers/Jesse_Ou_CRC2hCT.jpg,I hope nobody forgets to put me on the officer page,false,,true
-Bill,Cao,Mon 4-5 PM,images/officers/Bill_Cao.jpg,,Probably taking a nap right now,false,,true
-Kevin,Zhang,N/A,images/officers/Kevin_Zhang.jpg,,ポプテピピック,false,,true
-Aniruddha,Nrusimha,N/A,images/officers/Aniruddha_Nrusimha.jpg,images/officers/Aniruddha_Nrusimha_sOnddcF.jpg,"I'm a freshman who loves computer science, physics, and philosophy.  My most important goal in life is to marginally improve your coding environment.",false,,true
-Sean,Meng,N/A,images/officers/Sean_Meng.png,,乇乂ㄒ尺卂 ㄒ卄丨匚匚,false,,true
+Leon,Ming,Tues 1-2 PM,images/officers/Leon_Ming.png,,Would you like some lemon gin?,false,,true
+Starr,Yang,Fri 12-1 PM,images/officers/Starr_Yang_zM1nukL.jpg,,idk,false,,true
+Joshua,Yang,Mon 10-11 AM,images/officers/Joshua_Yang.png,images/officers/Joshua_Yang_c0yoEEz.png,Will beatbox for boba!,false,,false
+Benjamin,Wu,Fri 10-11 AM,images/officers/Benjamin_Wu.jpg,,im a cat who loves to snooze,false,,true
+Catherine,Cang,Tues 5-6 PM,images/officers/Catherine_Cang.jpg,,Searching for good cat videos/pictures,false,,true
+Sophie,Wen,Thu 6-7 PM,images/officers/Sophie_Wen.png,,sorry i was busy loving bts what did you say,false,,true
+Anna,Brewer,Mon 2-3 PM,images/officers/Anna_Brewer_a9leDeh.jpg,images/officers/Anna_Brewer.png,brutalism apologist,false,,true
+Daniel,Wu,Wed 6-7 PM,images/officers/Daniel_Wu.jpg,images/officers/Daniel_Wu_mU4Gk1E.jpg,"@IncurMyDisfavour Hi, I would like to buy your Kaom's Heart Glorious Plate listed for 145 chaos in Incursion (stash tab ""Will Trade for Kaoms Heart""; position: left 7, top 6)",false,,true
+Justin,Cheng,Fri 3-4 PM,images/officers/Justin_Cheng_GFAHVhN.jpg,,Please instructor endorse me on Piazza,false,,true
+Jesse,Ou,Wed 1-2 PM,images/officers/Jesse_Ou.jpg,images/officers/Jesse_Ou_CRC2hCT.jpg,probably taking a nap right now,false,,false
+Bill,Cao,Wed 12-1 PM,images/officers/Bill_Cao.jpg,,Probably taking a nap right now,false,,true
+Kevin,Zhang,Tues 11-12 PM,images/officers/Kevin_Zhang.jpg,,blockchain technology  该项目将开发一个试验系统中区块链基础设施用于问题和参与者之间转移资金.,false,,true
+Aniruddha,Nrusimha,Fri 2-3 PM,images/officers/Aniruddha_Nrusimha.jpg,images/officers/Aniruddha_Nrusimha_sOnddcF.jpg,I get high on the beauty of theoretical computer science,false,,true
+Sean,Meng,Fri 11-12 PM,images/officers/Sean_Meng.png,,厶口  乃乇卂尺丂,false,,true
 Andrew,Zhang,N/A,images/officers/Andrew_Zhang.jpg,,$BLURB,false,CS 70,true
+Barak,Zhou,Mon 10-11 AM,images/officers/Barak_Zhou_vtg5IDK.jpg,,This space intentionally left blank.,false,,true
+Sritam,Mishra,Mon 1-2 PM,images/officers/Sritam_Mishra.jpg,,Yeet dab,false,,true

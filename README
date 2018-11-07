@@ -18,4 +18,4 @@ cat datadump.json | jq '[. | map(select(.model=="db_data.officer")) | .[].fields
 jq command to convert json to csv, when the json is structured as a list of
 objects
 
-cat officers.json | jq -r '.[] | [.[]] | @csv' > officers.csv
+cat officers.json | jq -r '(.[0] | keys_unsorted),(.[] | [.[]]) | @csv' > officers.csv

@@ -38,7 +38,7 @@ a job? Want to find your community? Come visit us in 311 Soda!
 {% assign office_hours = shortdays[forloop.index0] | append:" " | append:time %}
 {% assign officers = site.data.officers
 	| where:"office_hours",office_hours
-	| where:"is_active","true" %}
+	| where:"enabled","true" %}
 {% for officer in officers %}
 <div class="{% if officer.root_staff == "true" %}root-staff{% endif %}">
 <a href="#{{ officer.first_name }}{{ officer.last_name }}">
@@ -62,7 +62,7 @@ computing resources. Come talk to us!
 {% assign officers = site.data.officers | sort:"first_name" %}
 <div class="roster">
 {% for officer in officers %}
-{% if officer.is_active == "true" %}
+{% if officer.enabled == "true" %}
 <div class="officer" id="{{ officer.first_name }}{{ officer.last_name }}">
 <div class="photo-frame">
 {% if officer.photo2 == nil %}
