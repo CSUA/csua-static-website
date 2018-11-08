@@ -1,0 +1,37 @@
+.nav-wrapper {
+	padding-right: $spacing-unit;
+	padding-left: $spacing-unit;
+	width: 100%;
+	position: static;
+	@extend %clearfix;
+
+	@include media-query($on-laptop) {
+		padding-right: $spacing-unit / 2;
+		padding-left: $spacing-unit / 2;
+	}
+
+	@include media-query($on-palm) {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+nav {
+	#logo {
+		float: left;
+		padding-left: 10px;
+		padding-right: 10px;
+		img {
+			width: 75px;
+			height: 75px;
+			object-fit: contain;
+		}
+		@include media-query($on-palm) {
+			img {
+				height: 80px;
+				width: 80px;
+				padding: 0;
+			}
+		}
+	}
+}

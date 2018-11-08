@@ -1,0 +1,15 @@
+#tabs {
+	> a {
+		display: inline-block;
+		border-radius: 4px 4px 0 0;
+		padding: 10px 5px;
+		text-align: center;
+	}
+}
+
+.tab-hidden {
+	display: none;
+	&:target {
+		display: block;
+	}
+}

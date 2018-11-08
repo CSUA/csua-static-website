@@ -57,14 +57,14 @@ lounge (341\* Soda).
 
 ## [The Politburo]({{ site.baseurl }}{% link about/pb.md %})
 
-The Politburo is composed of elected officers of the CSUA. You can
-contact the Politburo at politburo@csua.berkeley.edu.
+The Politburo is composed of elected officers of the CSUA. You can contact the
+Politburo at politburo@csua.berkeley.edu.
 
 ## [Officers]({{ site.baseurl }}{% link about/officers.md %})
 
-Officers are people you find frequently at the office. They're responsible
-for keeping the place open and friendly. Many of them are experienced
-with programming and can help you with your classes.
+Officers are people you find frequently at the office. They're responsible for
+keeping the place open and friendly. Many of them are experienced with
+programming and can help you with your classes.
 
 </div>
 
@@ -89,8 +89,8 @@ Cory), and [Emerald Templeton][emerald] (377 Soda).
 ## [Electrical Engineering & Computer Science](http://www.eecs.berkeley.edu/)
 
 Learn more about the Electrical Engineering & Computer Science department in UC
-Berkeley's College of Engineering.  
-The CoE EECS advisor is [Sarah Van Nostrand][sarah] (203 Cory).
+Berkeley's College of Engineering.  The CoE EECS advisor is [Sarah Van
+Nostrand][sarah] (203 Cory).
 
 [sarah]: http://www.eecs.berkeley.edu/Students/Staff/vannostrand.shtml
 
@@ -104,17 +104,17 @@ The CSUA Office is located in 311 Soda Hall in front of the 3rd floor entrance
 to Soda Hall, at the corner of Hearst & LeRoy.  We also maintain a study lounge
 at 341 Soda Hall (within Soda).
 
-We work around the clock to provide computing resources, support, and
-community to the computer science students at Berkeley.
-In the rare case that you have an emergency and the office is vacant, you
-may email us at politburo@csua.berkeley.edu.
+We work around the clock to provide computing resources, support, and community
+to the computer science students at Berkeley.  In the rare case that you have
+an emergency and the office is vacant, you may email us at
+politburo@csua.berkeley.edu.
 
 <div markdown="1" id="office-address" class="text">
 
-**Address**  
-Computer Science Undergraduate Association  
-University of California, Berkeley  
-311 Soda Hall  
+**Address**\\
+Computer Science Undergraduate Association\\
+University of California, Berkeley\\
+311 Soda Hall\\
 Berkeley, CA 94720-1776
 
 </div>
