@@ -1,3 +1,5 @@
 ignore:
   - README
   - deploy.sh
+
+description: The Computer Science Undergraduate Association at UC Berkeley (CSUA)
