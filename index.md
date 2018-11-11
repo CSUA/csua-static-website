@@ -29,17 +29,16 @@ lounge (341\* Soda).
 
 # Upcoming Events
 
-{% for event in site.data.events %}
-<div class="event">
-<div class="event-title">
-<a href="{{ event.link }}">
-{{ event.title }}
-</a>
-</div>
-<div class="event-time">{{ event.time }}</div>
-<div class="event-location">{{ event.location }}</div>
-</div>
+{% assign events = site.data.events %}
+{% assign upcoming = "" | split:"" %}
+{% assign nowepoch = "now" | date:"%s" %}
+{% for event in events %}
+{% assign eventepoch = event.start | date:"%s" %}
+{% if eventepoch > nowepoch %}
+{% assign upcoming = upcoming | push:event %}
+{% endif %}
 {% endfor %}
+{% include events.html events=upcoming %}
 
 </div>
 

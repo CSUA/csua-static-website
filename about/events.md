@@ -3,30 +3,21 @@ title: Events
 permalink: /events/
 ---
 
-<div id="tabs">
 
-<a href="#industry">Industry</a>
-<a href="#workshops">Workshops</a>
-<a href="#socials">Socials</a>
-<a href="#general-meetings">General Meetings</a>
+{% assign categories = site.data.events | map:"category" | uniq %}
+{% for category in categories %}
+{% assign events = site.data.events | where:"category",category %}
+
+<div markdown="1" class="event-category">
+## {{ category }}
+
+{% include events.html events=events %}
 
 </div>
 
-<div id="industry" class="tab-hidden">
-Industry Events!!!
-</div>
+{% endfor %}
 
-<div id="workshops" class="tab-hidden">
-Workshops!!! VIM :O
-</div>
-
-<div id="socials" class="tab-hidden">
-Socials :)))
-</div>
-
-<div id="general-meetings" class="tab-hidden">
-General Meetings :-D
-</div>
+## Google Calendar
 
 <div class="google-calendar">
 <iframe

@@ -1,15 +1,19 @@
-#tabs {
-	> a {
-		display: inline-block;
-		border-radius: 4px 4px 0 0;
-		padding: 10px 5px;
-		text-align: center;
-	}
+.event-category {
+	margin-bottom: 16px;
 }
-
-.tab-hidden {
-	display: none;
-	&:target {
-		display: block;
+.event {
+	padding: 5px;
+	border: 1px black;
+	.event-time {
+		color: cornflowerblue;
+		font-size: 14px;
+	}
+	.event-title {
+		font-weight: 600;
+		font-size: 18px;
+	}
+	.event-location {
+		color: gray;
+		font-size: 12px;
 	}
 }
