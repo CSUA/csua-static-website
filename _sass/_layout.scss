@@ -8,7 +8,7 @@
 	background-color: #003F72;
 
 	// keep nav/header above all other elements
-	z-index: 1;
+	z-index: 10;
 
 	// Positioning context for the mobile navigation icon
 	position: fixed;
@@ -95,6 +95,8 @@
 .site-footer {
 	border-top: 1px solid $grey-color-light;
 	padding: $spacing-unit 0;
+	line-height: normal;
+	color: gray;
 }
 
 .footer-heading {

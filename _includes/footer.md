@@ -8,6 +8,8 @@ Nunez. [Contributors]
 Website feedback? Make an issue or pull request for this page on [GitHub].
 
 Copyright &copy; 2018 CSUA. All rights reserved.
+
+Site generated on {{ site.time | date:"%F %T" }}
 </div>
 </footer>
 
