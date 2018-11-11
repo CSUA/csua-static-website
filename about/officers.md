@@ -52,6 +52,10 @@ a job? Want to find your community? Come visit us in 311 Soda!
 </table>
 </div>
 
+[Spreadsheet of office hours][oh]
+
+[oh]: https://docs.google.com/spreadsheets/d/1EXPLi9cWIM1x5mC6fq6_MQnvJ5aantnrjwcIfEXqHuc/edit#gid=0
+
 `$`: Root staff officers--Technically knowledgable CSUA Officers who maintain
 computing resources. Come talk to us!
 
@@ -64,7 +68,7 @@ computing resources. Come talk to us!
 <div class="officer" id="{{ officer.first_name }}{{ officer.last_name }}">
 <div class="photo-frame">
 {% if officer.photo2 == nil %}
-<img class="single" src="https://www.csua.berkeley.edu/media/{{ officer.photo1 }}">
+<img class="single" src="https://www.csua.berkeley.edu/media/{{ officer.photo1 | default:"images/officers/cardigan.jpg" }}">
 {% else %}
 <img class="photoone" src="https://www.csua.berkeley.edu/media/{{ officer.photo1 }}">
 <img class="phototwo" src="https://www.csua.berkeley.edu/media/{{ officer.photo2 }}">
@@ -77,7 +81,7 @@ computing resources. Come talk to us!
 <div class="officehours" markdown="1">
 [{{ officer.office_hours }}](#office-hours)
 </div>
-<div class="blurb">"{{ officer.blurb }}"</div>
+<div class="blurb">"{{ officer.blurb | default:"$BLURB" }}"</div>
 {% if officer.tutor_subjects %}
 <div class="tutor_subjects">Tutors for: {{ officer.tutor_subjects }}</div>
 {% endif %}
