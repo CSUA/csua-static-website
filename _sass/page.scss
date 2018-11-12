@@ -1,10 +1,11 @@
+$blocksep: 20px;
 .page-content {
 	.block {
 		padding-top: 100px;
 		border: 1px solid #CCC;
 		padding: 15px;
 		background-color: #FAFAFA;
-		margin-bottom: 20px;
+		margin-bottom: $blocksep;
 	}
 	.row {
 		display: flex;
@@ -13,27 +14,15 @@
 		}
 		.block {
 			width: 50%;
+			&:not(:first-child) {
+				margin-left: $blocksep;
+			}
 			@include media-query($on-palm) {
 				width: inherit;
+				&:not(:first-child) {
+					margin-left: inherit;
+				}
 			}
-		}
-	}
-}
-
-.wrapper {
-	.columnleft {
-		float: left;
-	}
-	.columnright {
-		float: right;
-	}
-	.columnleft, .columnright {
-		display: inline-block;
-		width: 49%;
-
-		@include media-query($on-palm) {
-			width: 100%;
-			display: block;
 		}
 	}
 }
