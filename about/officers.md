@@ -39,10 +39,10 @@ a job? Want to find your community? Come visit us in 311 Soda!
 <td class="officer-cell {% if officers %} occupied {% endif %}">
 {% for officer in officers %}
 <a href="#{{ officer.first_name }}{{ officer.last_name }}">
-<span class="
-{% if officer.root_staff %} root-staff {% endif %}
-{% if officer.tutor_subjects %} tutor {% endif %}
-">{{ officer.first_name }}&nbsp;{{ officer.last_name | slice: 0 }}
+<span class="{% if officer.root_staff %} root-staff {% endif %}">
+<span class="{% if officer.tutor_subjects %} tutor {% endif %}">
+<span class="officer-name">{{ officer.first_name }} {{ officer.last_name | slice: 0 }}.</span>
+</span>
 </span>
 </a>
 {% endfor %}
@@ -65,7 +65,7 @@ root at csua.berkeley.edu.
 ✋: Tutors--Can help you with your classes, click to find out more. [Read more
 about tutoring][tutoring]
 
-[tutoring]: {{ site.baseurl }}tutoring
+[tutoring]: {{ site.baseurl }}{% link about/tutoring.md %}
 
 ### Current Officers
 

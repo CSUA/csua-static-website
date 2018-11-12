@@ -11,7 +11,7 @@ $officer-width: 200px;
 		border-spacing: 0;
 		th, td {
 			border: 1px solid #dfe2e5;
-			padding: 6px 13px;
+			padding: 6px 10px;
 		}
 		tr {
 			&:nth-child(even) {
@@ -19,19 +19,21 @@ $officer-width: 200px;
 			}
 		}
 		.time {
-			min-width: 80px;
+			white-space: nowrap;
 		}
 		.officer-cell {
-			padding-left: 10px;
+			span {
+				white-space: nowrap;
+			}
 			.root-staff {
 				font-family: monospace;
 				&:before {
-					content: '💻\a0';
+					content: '💻';
 				}
 			}
 			.tutor {
 				&:before {
-					content: '✋\a0';
+					content: '✋';
 				}
 			}
 		}
@@ -90,6 +92,7 @@ $officer-width: 200px;
 		}
 	}
 	.tutor-subjects {
+		padding-top: 10px;
 		border-top: 1px solid lightgray;
 	}
 	/* Logic for showing alternative photo */

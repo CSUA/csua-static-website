@@ -30,6 +30,11 @@
   office_hours: Thu 5-6 PM
   photo1: images/officers/Ray_Pan_zZHOkAH.JPG
   root_staff: 'true'
+  tutor_subjects:
+  - CS 61A
+  - CS 61B
+  - CS 168
+  - EE 16A
 - blurb: grand blue is a diving manga
   enabled: true
   first_name: Jonathan
@@ -105,6 +110,10 @@
   last_name: Yang
   office_hours: Fri 12-1 PM
   photo1: images/officers/Starr_Yang_zM1nukL.jpg
+  tutor_subjects:
+  - CS 61A
+  - CS 61B
+  - CS 70
 - blurb: Will beatbox for boba!
   first_name: Joshua
   last_name: Yang
@@ -129,6 +138,9 @@
   last_name: Wen
   office_hours: Fri 10-11 AM
   photo1: images/officers/Sophie_Wen.png
+  tutor_subjects:
+  - CS 61A
+  - CS 61B
 - blurb: brutalism apologist
   enabled: true
   first_name: Anna
@@ -144,12 +156,20 @@
   office_hours: Wed 6-7 PM
   photo1: images/officers/Daniel_Wu.jpg
   photo2: images/officers/Daniel_Wu_mU4Gk1E.jpg
+  tutor_subjects:
+  - CS 61A
+  - CS 61B
 - blurb: '"Tired. Sleepy. Need money." - Trevor "ModestCube" Schmidty II'
   enabled: true
   first_name: Justin
   last_name: Cheng
   office_hours: Fri 6-7 PM
   photo1: images/officers/Justin_Cheng_GFAHVhN.jpg
+  tutor_subjects:
+  - CS 61A
+  - CS 61B
+  - Math 1A
+  - Math 1B
 - blurb: probably taking a nap right now
   enabled: 'false'
   first_name: Jesse
@@ -176,12 +196,22 @@
   office_hours: Fri 2-3 PM
   photo1: images/officers/Aniruddha_Nrusimha.jpg
   photo2: images/officers/Aniruddha_Nrusimha_sOnddcF.jpg
+  tutor_subjects:
+  - CS 61B
+  - CS 70
+  - EE 16A
+  - EE 16B
 - blurb: 厶口  乃乇卂尺丂
   enabled: true
   first_name: Sean
   last_name: Meng
   office_hours: Fri 11-12 PM
   photo1: images/officers/Sean_Meng.png
+  tutor_subjects:
+  - CS 61B
+  - CS 70
+  - EE 16A
+  - EE 16B
 - blurb: This space intentionally left blank.
   enabled: true
   first_name: Barak
@@ -218,6 +248,11 @@
   last_name: Kassil
   office_hours: Wed 1-2 PM
   photo1: images/officers/Alex_Kassil.jpg
+  tutor_subjects:
+  - CS 61A
+  - CS 61B
+  - CS 88
+  - Data 8
 - blurb: Got mad yoyo skills
   enabled: true
   first_name: Bassam
