@@ -19,3 +19,15 @@ jq command to convert json to csv, when the json is structured as a list of
 objects
 
 cat officers.json | jq -r '(.[0] | keys_unsorted),(.[] | [.[]]) | @csv' > officers.csv
+
+Resize office images
+
+find . -name '*.jpg' | xargs -L1 -I{} convert "{}" -resize 200x200^ "{}"
+
+Re-encode gifs
+
+ffmpeg -i Neil_Lingarkar.gif -c:v libvpx -crf 12 -b:v 500K -auto-alt-ref 0 Neil_Lingarkar.webm
+
+(And since mp4 is more well suppported)
+
+ffmpeg -i Neil_Lingarkar.webm Neil_Lingarkar.mp4

@@ -1,30 +1,35 @@
-- blurb: Alaan Boosting Services
-  enabled: true
+nlingarkar:
+  blurb: Alaan Boosting Services
   first_name: Neil
   last_name: Lingarkar
   office_hours: Mon 5-6 PM
   photo1: images/officers/Neil_Lingarkar.jpg
-- blurb: Two cats are on a roof. Which one slides off first? The one with the smaller
+  video2: images/officers/Neil_Lingarkar.mp4
+
+mbhsueh:
+  blurb: Two cats are on a roof. Which one slides off first? The one with the smaller
     μ (mew)! (=^ ◡ ^=)
-  enabled: true
   first_name: Michelle
   last_name: Hsueh
   office_hours: Tues 3-4 PM
   photo1: images/officers/Michelle_Hsueh_OzqLreG.jpg
-  photo2: images/officers/Michelle_Hsueh_32F31td.gif
+  video2: images/officers/Michelle_Hsueh.mp4
   tutor_subjects:
   - CS 61A
   - CS 61B
   - Data 8
-- blurb: Passing test cases is easy. Every time I pass one, I think yes. Every time
+
+jjzheng:
+  blurb: Passing test cases is easy. Every time I pass one, I think yes. Every time
     I don't, I think no.
   first_name: Juntai
   last_name: Zheng
   office_hours: Tues 4-5 PM
   photo1: images/officers/Juntai_Zheng_CMp7cJA.jpg
   photo2: images/officers/Juntai_Zheng_212DqLB.jpg
-- blurb: Sometimes I do something... I think
-  enabled: true
+
+waywan:
+  blurb: Sometimes I do something... I think
   first_name: Ray
   last_name: Pan
   office_hours: Thu 5-6 PM
@@ -35,77 +40,89 @@
   - CS 61B
   - CS 168
   - EE 16A
-- blurb: grand blue is a diving manga
-  enabled: true
+
+jonathanjtan:
+  blurb: grand blue is a diving manga
   first_name: Jonathan
   last_name: Tan
   office_hours: Thu 4-5 PM
   photo1: images/officers/Jonathan_Tan_hVyEgu3.JPG
-  photo2: images/officers/Jonathan_Tan_W67jznu.gif
+  video2: images/officers/Jonathan_Tan.mp4
   root_staff: 'true'
-- blurb: Will sing for food (will sing regardless)
-  enabled: true
+
+ytuo:
+  blurb: Will sing for food (will sing regardless)
   first_name: Yannan
   last_name: Tuo
   office_hours: Mon 4-5 PM
   photo1: images/officers/Yannan_Tuo.jpg
-- blurb: I play children's card games.
-  enabled: true
+  video2: images/officers/Yannan_Tuo.mp4
+
+clamos:
+  blurb: I play children's card games.
   first_name: Jimmy
   last_name: Kim
   office_hours: Thu 3-4 PM
   photo1: images/officers/Jimmy_Kim_CfXapky.jpg
   photo2: images/officers/Jimmy_Kim_cOxgTdC.png
-- blurb: I'm a potato.
-  enabled: true
+
+jesskuo:
+  blurb: I'm a potato.
   first_name: Jessica
   last_name: Kuo
   office_hours: Thu 1-2 PM
   photo1: images/officers/Jessica_Kuo_NmIX6fU.png
   photo2: images/officers/Jessica_Kuo_ncAh6MU.png
-- blurb: nugget biscuit nugget in a biscuit dip it all in mashed potatoes
-  enabled: true
+
+robertq:
+  blurb: nugget biscuit nugget in a biscuit dip it all in mashed potatoes
   first_name: Robert
   last_name: Quitt
   office_hours: Mon 10-11 AM
   photo1: images/officers/Robert_Quitt.jpg
   photo2: images/officers/Robert_Quitt_GdY2Suo.jpg
   root_staff: 'true'
-- blurb: Fluffy puppers are pretty alright.
-  enabled: true
+
+yeungjasonj:
+  blurb: Fluffy puppers are pretty alright.
   first_name: Jason
   last_name: Yeung
   office_hours: Thu 2-3 PM
   photo1: images/officers/Jason_Yeung_HNWSxwz.jpg
   photo2: images/officers/Jason_Yeung_TGqboZM.jpg
-- blurb: $BLURB
-  enabled: true
+
+mark64:
+  blurb: $BLURB
   first_name: Mark
   last_name: Hill
   office_hours: Wed 2-3 PM
   photo1: images/officers/Mark_Hill.jpg
   root_staff: 'true'
-- blurb: If you read this, I'll give you 15 cents
-  enabled: true
+
+rnithin:
+  blurb: If you read this, I'll give you 15 cents
   first_name: Nithin
   last_name: Raghavan
   office_hours: Mon 12-1 PM
   photo1: images/officers/Nithin_Raghavan.png
   root_staff: 'true'
-- blurb: I pour the milk before adding cereal
-  enabled: true
+
+akazantsev:
+  blurb: I pour the milk before adding cereal
   first_name: Arthur
   last_name: Kazantsev
   office_hours: Tues 6-7 PM
   photo1: images/officers/Arthur_Kazantsev_WjOStbx.jpg
-- blurb: Would you like some lemon gin?
-  enabled: true
+
+leon.ming:
+  blurb: Would you like some lemon gin?
   first_name: Leon
   last_name: Ming
   office_hours: Tues 1-2 PM
   photo1: images/officers/Leon_Ming.png
-- blurb: idk
-  enabled: true
+
+starrtyang:
+  blurb: idk
   first_name: Starr
   last_name: Yang
   office_hours: Fri 12-1 PM
@@ -114,26 +131,23 @@
   - CS 61A
   - CS 61B
   - CS 70
-- blurb: Will beatbox for boba!
-  first_name: Joshua
-  last_name: Yang
-  office_hours: Mon 10-11 AM
-  photo1: images/officers/Joshua_Yang.png
-  photo2: images/officers/Joshua_Yang_c0yoEEz.png
-- blurb: im a cat who loves to snooze
-  enabled: true
+
+pinbat:
+  blurb: im a cat who loves to snooze
   first_name: Benjamin
   last_name: Wu
   office_hours: Fri 3-4 PM
   photo1: images/officers/Benjamin_Wu.jpg
-- blurb: Searching for good cat videos/pictures
-  enabled: true
+
+catherinecang:
+  blurb: Searching for good cat videos/pictures
   first_name: Catherine
   last_name: Cang
   office_hours: Tues 5-6 PM
   photo1: images/officers/Catherine_Cang.jpg
-- blurb: sorry i was busy loving bts what did you say
-  enabled: true
+
+sqwen:
+  blurb: sorry i was busy loving bts what did you say
   first_name: Sophie
   last_name: Wen
   office_hours: Fri 10-11 AM
@@ -141,16 +155,18 @@
   tutor_subjects:
   - CS 61A
   - CS 61B
-- blurb: brutalism apologist
-  enabled: true
+
+annabrewer:
+  blurb: brutalism apologist
   first_name: Anna
   last_name: Brewer
   office_hours: Tues 2-3 PM
   photo1: images/officers/Anna_Brewer_a9leDeh.jpg
   photo2: images/officers/Anna_Brewer.png
-- blurb: '@IncurMyDisfavour Hi, I would like to buy your Kaoms Heart Glorious Plate
+
+domath:
+  blurb: '@IncurMyDisfavour Hi, I would like to buy your Kaoms Heart Glorious Plate
     left 7, top 6)'
-  enabled: true
   first_name: Daniel
   last_name: Wu
   office_hours: Wed 6-7 PM
@@ -159,8 +175,9 @@
   tutor_subjects:
   - CS 61A
   - CS 61B
-- blurb: '"Tired. Sleepy. Need money." - Trevor "ModestCube" Schmidty II'
-  enabled: true
+
+jcheng412:
+  blurb: '"Tired. Sleepy. Need money." - Trevor "ModestCube" Schmidty II'
   first_name: Justin
   last_name: Cheng
   office_hours: Fri 6-7 PM
@@ -170,27 +187,31 @@
   - CS 61B
   - Math 1A
   - Math 1B
-- blurb: probably taking a nap right now
-  enabled: 'false'
+
+jesse.ou:
+  blurb: hi im jesse
   first_name: Jesse
   last_name: Ou
   office_hours: Wed 1-2 PM
   photo1: images/officers/Jesse_Ou.jpg
   photo2: images/officers/Jesse_Ou_CRC2hCT.jpg
-- blurb: Probably taking a nap right now
-  enabled: true
+
+bill.cao:
+  blurb: Probably taking a nap right now
   first_name: Bill
   last_name: Cao
   office_hours: Wed 12-1 PM
   photo1: images/officers/Bill_Cao.jpg
-- blurb: blockchain technology  该项目将开发一个试验系统中区块链基础设施用于问题和参与者之间转移资金.
-  enabled: true
+
+skware:
+  blurb: blockchain technology  该项目将开发一个试验系统中区块链基础设施用于问题和参与者之间转移资金.
   first_name: Kevin
   last_name: Zhang
   office_hours: Tues 11-12 PM
   photo1: images/officers/Kevin_Zhang.jpg
-- blurb: I get high on the beauty of theoretical computer science
-  enabled: true
+
+userans22:
+  blurb: I get high on the beauty of theoretical computer science
   first_name: Aniruddha
   last_name: Nrusimha
   office_hours: Fri 2-3 PM
@@ -201,8 +222,9 @@
   - CS 70
   - EE 16A
   - EE 16B
-- blurb: 厶口  乃乇卂尺丂
-  enabled: true
+
+sean_meng:
+  blurb: 厶口  乃乇卂尺丂
   first_name: Sean
   last_name: Meng
   office_hours: Fri 11-12 PM
@@ -212,38 +234,43 @@
   - CS 70
   - EE 16A
   - EE 16B
-- blurb: This space intentionally left blank.
-  enabled: true
+
+zhoubw:
+  blurb: This space intentionally left blank.
   first_name: Barak
   last_name: Zhou
   office_hours: Mon 11-12 PM
   photo1: images/officers/Barak_Zhou_vtg5IDK.jpg
-- blurb: Hi! I do stuff, I think?
-  enabled: true
+
+externalhardrive:
+  blurb: Hi! I do stuff, I think?
   first_name: Charles
   last_name: Sun
   office_hours: Wed 4-5 PM
   photo1: images/officers/Charles_Sun.jpg
   photo2: images/officers/Charles_Sun_2.jpg
-- blurb: len("Ben Chennn")=ten!  Hey everyone my name is Ben Chen, a sophomore majoring
+
+bchen:
+  blurb: len("Ben Chennn")=ten!  Hey everyone my name is Ben Chen, a sophomore majoring
     in CS and Spanish linguistics (I know it's a weird duo). I am really looking to
     work with everyone this semester! I have a passion in tutoring, so if you have
     any questions regarding CS10/61A/61B/70 or math 1A/54 feel free to come talk to
     me.  Also I used to do rowing competitively, but unfortunately you won't see thick
     arms nor six packs from me nowadays.
-  enabled: true
   first_name: Ben
   last_name: Chen
   office_hours: Thu 6-7 PM
   photo1: images/officers/Ben_Chen.jpg
   photo2: images/officers/Ben_Chen_2.jpg
-- blurb:
-  enabled: true
+
+cs.kevinlu:
+  blurb:
   first_name: Kevin
   last_name: Lu
   office_hours: Fri 1-2 PM
-- blurb: I like programming, chess, math, and spending time with friends.
-  enabled: true
+
+alexkassil:
+  blurb: I like programming, chess, math, and spending time with friends.
   first_name: Alex
   last_name: Kassil
   office_hours: Wed 1-2 PM
@@ -253,14 +280,16 @@
   - CS 61B
   - CS 88
   - Data 8
-- blurb: Got mad yoyo skills
-  enabled: true
+
+samsafadi:
+  blurb: Got mad yoyo skills
   first_name: Bassam
   last_name: Safadi
   office_hours: Mon 1-2 PM
   photo1: images/officers/Bassam_Safadi.jpg
-- blurb:
-  enabled: true
+
+jtao:
+  blurb:
   first_name: Jeffrey
   last_name: Tao
   office_hours: Wed 3-4 PM

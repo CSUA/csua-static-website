@@ -15,6 +15,11 @@ a job? Want to find your community? Come visit us in 311 Soda!
 {% assign times = "10-11 AM,11-12 PM,12-1 PM,1-2 PM,2-3 PM,3-4 PM,4-5 PM,5-6 PM,6-7 PM"
 	| split:"," %}
 
+{% assign officers_list = "" | split:"" %}
+{% for officer in site.data.officers %}
+{% assign officers_list = officers_list | push:officer[1] %}
+{% endfor %}
+
 <div class="officer-calendar">
 <table>
 <tr>
@@ -33,9 +38,7 @@ a job? Want to find your community? Come visit us in 311 Soda!
 </td>
 {% for day in days %}
 {% assign office_hours = shortdays[forloop.index0] | append:" " | append:time %}
-{% assign officers = site.data.officers
-	| where:"office_hours",office_hours
-	| where:"enabled","true" %}
+{% assign officers = officers_list | where:"office_hours",office_hours %}
 <td class="officer-cell {% if officers %} occupied {% endif %}">
 {% for officer in officers %}
 <a href="#{{ officer.first_name }}{{ officer.last_name }}">
@@ -69,18 +72,25 @@ about tutoring][tutoring]
 
 ### Current Officers
 
-{% assign officers = site.data.officers | sort:"first_name" %}
 <div class="roster">
-{% for officer in officers %}
-{% if officer.enabled %}
-<div class="officer" id="{{ officer.first_name }}{{ officer.last_name }}">
+{% assign officers_list_sorted = officers_list | sort:"first_name" %}
+{% for officer in officers_list_sorted %}
+<div class="officer" >
+<div class="id-target" id="{{ officer.first_name }}{{ officer.last_name }}"></div>
+
 <div class="photo-frame">
 {% if officer.photo2 %}
 <img class="photoone" src="https://www.csua.berkeley.edu/media/{{ officer.photo1 }}">
 <img class="phototwo" src="https://www.csua.berkeley.edu/media/{{ officer.photo2 }}">
+{% elsif officer.video2 %}
+<img class="photoone" src="https://www.csua.berkeley.edu/media/{{ officer.photo1 }}">
+<video class="videotwo" loop nocontrols onmouseover="play()" onmouseoff="pause()">
+<source src="https://www.csua.berkeley.edu/media/{{ officer.video2 }}" type="video/mp4"></source>
+</video>
 {% else %}
 <img class="single" src="https://www.csua.berkeley.edu/media/{{ officer.photo1 | default:"images/officers/cardigan.jpg" }}">
 {% endif %}
+
 {% if officer.root_staff %}
 <div class="root-staff-banner">Root</div>
 {% endif %}
@@ -94,7 +104,6 @@ about tutoring][tutoring]
 <div class="tutor-subjects">Tutors for: {{ officer.tutor_subjects | join:", " }}</div>
 {% endif %}
 </div>
-{% endif %}
 {% endfor %}
 </div>
 
