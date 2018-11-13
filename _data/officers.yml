@@ -27,6 +27,7 @@ jjzheng:
   office_hours: Tues 4-5 PM
   photo1: images/officers/Juntai_Zheng_CMp7cJA.jpg
   photo2: images/officers/Juntai_Zheng_212DqLB.jpg
+  invisible: true
 
 waywan:
   blurb: Sometimes I do something... I think
@@ -192,7 +193,7 @@ jesse.ou:
   blurb: hi im jesse
   first_name: Jesse
   last_name: Ou
-  office_hours: Wed 1-2 PM
+  office_hours: N/A
   photo1: images/officers/Jesse_Ou.jpg
   photo2: images/officers/Jesse_Ou_CRC2hCT.jpg
 

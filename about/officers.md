@@ -75,6 +75,7 @@ about tutoring][tutoring]
 <div class="roster">
 {% assign officers_list_sorted = officers_list | sort:"first_name" %}
 {% for officer in officers_list_sorted %}
+{% unless officer.invisible %}
 <div class="officer" >
 <div class="id-target" id="{{ officer.first_name }}{{ officer.last_name }}"></div>
 
@@ -104,6 +105,7 @@ about tutoring][tutoring]
 <div class="tutor-subjects">Tutors for: {{ officer.tutor_subjects | join:", " }}</div>
 {% endif %}
 </div>
+{% endunless %}
 {% endfor %}
 </div>
 
