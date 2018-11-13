@@ -1,11 +1,21 @@
-.event-category {
-	margin-bottom: 16px;
+.events {
+	display: flex;
+	flex-wrap: wrap;
+	.event-category {
+		margin-bottom: 16px;
+		flex-grow: 1;
+		width: 50%;
+		padding: 10px;
+		@include media-query($on-palm) {
+			flex-basis: 100%;
+			flex-direction: column;
+			padding: 0;
+		}
+	}
 }
 .event {
-	padding: 5px;
-	border: 1px black;
+	padding-bottom: 10px;
 	.event-time {
-		color: cornflowerblue;
 		font-size: 14px;
 	}
 	.event-title {
@@ -15,5 +25,20 @@
 	.event-location {
 		color: gray;
 		font-size: 12px;
+	}
+	&.upcoming {
+		.event-time {
+			color: cornflowerblue;
+		}
+		.event-title {
+		}
+	}
+	&.passed {
+		.event-location, .event-title a, .event-time {
+			color: dimgray;
+		}
+		.event-title {
+			font-weight: 300;
+		}
 	}
 }

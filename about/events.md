@@ -4,9 +4,10 @@ permalink: /events/
 ---
 
 
-{% assign categories = site.data.events | map:"category" | uniq %}
+{% assign categories = site.data.events.fa18 | map:"category" | uniq %}
+<div class="events">
 {% for category in categories %}
-{% assign events = site.data.events | where:"category",category %}
+{% assign events = site.data.events.fa18 | where:"category",category %}
 
 <div markdown="1" class="event-category">
 ## {{ category }}
@@ -16,6 +17,8 @@ permalink: /events/
 </div>
 
 {% endfor %}
+
+</div>
 
 ## Google Calendar
 

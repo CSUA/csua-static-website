@@ -1,5 +1,8 @@
+{% assign nowepoch = "now" | date:"%s" %}
+
 {% for event in include.events %}
-<div class="event">
+{% assign eventepoch = event.start | date:"%s" %}
+<div class="event {% if eventepoch > nowepoch %} upcoming {% else %} passed {% endif %}">
 
 <div class="event-time">{{ event.start | date:"%a, %b %d FROM %-l:%M%p" | upcase }} TO {{ event.end | date:"%-l:%M%p" | upcase }}</div>
 
