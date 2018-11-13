@@ -29,7 +29,7 @@ lounge (341\* Soda).
 
 # Upcoming Events
 
-{% assign events = site.data.events %}
+{% assign events = site.data.events.fa18 %}
 {% assign upcoming = "" | split:"" %}
 {% assign nowepoch = "now" | date:"%s" %}
 {% for event in events %}
