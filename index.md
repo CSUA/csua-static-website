@@ -40,6 +40,8 @@ lounge (341\* Soda).
 {% endfor %}
 {% include events.html events=upcoming %}
 
+[All events]({{ site.baseurl }}{% link about/events.md %})
+
 </div>
 
 </div>
@@ -78,20 +80,22 @@ programming and can help you with your classes.
 ## [Computer Science](http://www.cs.berkeley.edu/)
 
 Learn more about the Computer Science department at UC Berkeley.  The L&S CS
-advisors are [Lily Zhang][lily] (379 Soda), [Charlene Hughes][charlene] (203
-Cory), and [Emerald Templeton][emerald] (377 Soda).
+advisors are [Leslie Mach] (379 Soda), [Lydia Raya] (379 Soda) and [Charlene
+Hughes] (315 Soda), 
 
-[lily]: https://lilyzhang.youcanbook.me/ 
-[charlene]: https://cdhughes.youcanbook.me/
-[emerald]: https://emeraldtempleton.youcanbook.me/
+[Leslie Mach]: https://eecs.berkeley.edu/resources/undergrads/cs/advising
+[Charlene Hughes]: https://eecs.berkeley.edu/resources/undergrads/cs/advising
+[Lydia Raya]: https://eecs.berkeley.edu/resources/undergrads/cs/advising
 
 ## [Electrical Engineering & Computer Science](http://www.eecs.berkeley.edu/)
 
 Learn more about the Electrical Engineering & Computer Science department in UC
-Berkeley's College of Engineering.  The CoE EECS advisor is [Sarah Van
-Nostrand][sarah] (203 Cory).
+Berkeley's College of Engineering. The Director of EECS Undergrad affairs is [Audrey Sillers] (203 Cory) and the EECS undergrad advisors are [Nicole McIntyre], [Mayra Rivera] and [Andrea Mejia Valencia] (all 205 Cory).
 
-[sarah]: http://www.eecs.berkeley.edu/Students/Staff/vannostrand.shtml
+[Audrey Sillers]: https://eecs.berkeley.edu/resources/undergrads/eecs/advising
+[Nicole McIntyre]: https://eecs.berkeley.edu/resources/undergrads/eecs/advising
+[Mayra Rivera]: https://eecs.berkeley.edu/resources/undergrads/eecs/advising
+[Andrea Mejia Valencia]: https://eecs.berkeley.edu/resources/undergrads/eecs/advising
 
 </div>
 
