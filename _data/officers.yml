@@ -265,10 +265,11 @@ bchen:
   photo2: images/officers/Ben_Chen_2.jpg
 
 cs.kevinlu:
-  blurb:
+  blurb: Interested in computer science
   first_name: Kevin
   last_name: Lu
   office_hours: Fri 1-2 PM
+  photo1: images/officers/Kevin_Lu.png
 
 alexkassil:
   blurb: I like programming, chess, math, and spending time with friends.
