@@ -114,6 +114,7 @@ akazantsev:
   last_name: Kazantsev
   office_hours: Tues 6-7 PM
   photo1: images/officers/Arthur_Kazantsev_WjOStbx.jpg
+  video2: images/officers/Arthur_Kazantsev_2.mp4
 
 leon.ming:
   blurb: Would you like some lemon gin?
@@ -188,14 +189,6 @@ jcheng412:
   - CS 61B
   - Math 1A
   - Math 1B
-
-jesse.ou:
-  blurb: hi im jesse
-  first_name: Jesse
-  last_name: Ou
-  office_hours: N/A
-  photo1: images/officers/Jesse_Ou.jpg
-  photo2: images/officers/Jesse_Ou_CRC2hCT.jpg
 
 bill.cao:
   blurb: Probably taking a nap right now
