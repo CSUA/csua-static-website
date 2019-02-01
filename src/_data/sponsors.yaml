@@ -1,0 +1,185 @@
+- current: false
+  description: TechTalk
+  name: Microsoft
+  photo: images/sponsors/Microsoft.png
+  url: http://www.microsoft.com/
+- current: false
+  description: TechTalk
+  name: Riot Games
+  photo: images/sponsors/Riot_Games.jpg
+  url: http://www.riotgames.com/
+- current: false
+  description: TechTalk
+  name: Blizzard
+  photo: images/sponsors/Blizzard.png
+  url: http://www.blizzard.com/
+  description:
+  items:
+  - name: TechTalk
+    link: https://www.facebook.com/events/1827932007444013/
+- current: false
+  description: 'Fall 2016 GM #2'
+  name: Niantic, Inc.
+  photo: images/sponsors/Niantic_Inc..png
+  url: https://www.nianticlabs.com/
+- current: false
+  description: TechTalk
+  name: Dropbox
+  photo: images/sponsors/Dropbox.jpg
+  url: https://www.dropbox.com/
+- current: false
+  description: TechTalk
+  name: Pinterest
+  photo: images/sponsors/Pinterest.png
+  url: https://www.pinterest.com/
+- current: false
+  description: TechTalk and Donating Tesla GPU's for CSUA's New Server
+  name: Nvidia
+  photo: images/sponsors/Nvidia.jpg
+  url: http://www.nvidia.com/
+- current: false
+  description: TechTalk
+  name: CoreOS
+  photo: images/sponsors/CoreOS.png
+  url: http://www.coreos.com/
+- current: false
+  description: TechTalk
+  name: Workday
+  photo: images/sponsors/Workday.png
+  url: http://www.workday.com/
+- current: false
+  description: Spring Code Sprint
+  name: HackerRank
+  photo: images/sponsors/HackerRank.jpg
+  url: https://www.hackerrank.com/
+- current: false
+  description: Code Challenge
+  name: Goldman Sachs
+  photo: images/sponsors/Goldman_Sachs.png
+  url: http://www.goldmansachs.com/
+- current: false
+  description: TechTalk
+  name: HealthTap
+  photo: images/sponsors/HealthTap.png
+  url: http://www.healthtap.com/
+- current: false
+  description: TechTalk
+  name: Voleon
+  photo: images/sponsors/Voleon.png
+  url: http://voleon.com/
+- current: false
+  description: Fall 2016 Tech Talk
+  name: State Farm
+  photo: images/sponsors/State_Farm.jpg
+  url: https://www.statefarm.com/
+- current: false
+  description: TechTalk
+  name: 6sense
+  photo: images/sponsors/6sense.png
+  url: https://6sense.com/
+- current: false
+  description: TechTalk
+  name: NerdWallet
+  photo: images/sponsors/NerdWallet.png
+  url: https://www.nerdwallet.com/
+- current: false
+  description: TechTalk
+  name: EMC
+  photo: images/sponsors/EMC.jpg
+  url: http://www.emc.com/
+- current: false
+  description: Fall 2016 Donor, Spring 2014 Intel Hackathon
+  name: Intel
+  photo: images/sponsors/Intel.png
+  url: http://intel.com/
+- current: false
+  description: TechTalk
+  name: Qualcomm
+  photo: images/sponsors/Qualcomm.png
+  url: https://www.qualcomm.com/
+- current: false
+  description: Fall 2017 and Fall 2016 TechTalk
+  name: OpenTable
+  photo: images/sponsors/OpenTable.png
+  url: http://www.opentable.com/
+- current: false
+  description: Fall 2016 Tech Talk
+  name: Capital One
+  photo: images/sponsors/Capital_One.jpg
+  url: https://www.capitalone.com/
+- current: false
+  description: Fall 2017 TechTalk, Fall 2016 Hackathon, Fall 2012, Spring 2013, Fall
+    2013, Spring 2014 Hackathons, Multiple Coding for Grubs
+  name: Cisco Meraki
+  photo: images/sponsors/Cisco_Meraki.jpg
+  url: http://www.meraki.com/
+- current: false
+  description: TechTalk
+  name: Yelp
+  photo: images/sponsors/Yelp.png
+  url: http://www.yelp.com/
+- current: false
+  description: TechTalk
+  name: Oracle
+  photo: images/sponsors/Oracle.png
+  url: https://www.oracle.com/index.html
+- current: false
+  description: TechTalk
+  name: Ellation | Crunchyroll
+  photo: images/sponsors/Ellation__Crunchroll.png
+  url: http://www.ellation.com/home
+- current: false
+  description: Workshop
+  name: GoDaddy
+  photo: images/sponsors/GoDaddy.jpg
+  url: https://www.godaddy.com/
+- current: false
+  description: TechTalk
+  name: IBM
+  photo: images/sponsors/IBM.jpg
+  url: http://www.ibm.com/us-en/
+- current: false
+  description: TechTalk
+  name: Lightspeed Venture Partners
+  photo: images/sponsors/Lightspeed_Venture_Partners.jpg
+  url: http://lsvp.com/
+- current: false
+  description: TechTalk
+  name: Fin
+  photo: images/sponsors/Fin.jpg
+  url: https://www.fin.com/letters/introducing-fin
+- current: false
+  description: Tabling
+  name: General Motors
+  photo: images/sponsors/General_Motors.jpg
+  url: http://www.gm.com/index.html
+- current: false
+  description: TechTalk
+  name: Groupon
+  photo: images/sponsors/Groupon.gif
+  url: https://www.groupon.com/
+- current: false
+  description: TechTalk
+  name: Luminate Wireless
+  photo: images/sponsors/Luminate_Wireless.jpg
+  url: http://www.luminatewireless.com/
+- current: false
+  description: TechTalk
+  name: Cisco
+  photo: images/sponsors/Cisco.jpg
+  url: http://www.cisco.com/c/en/us/index.html
+- current: false
+  description: Puzzle Hunt
+  name: Facebook
+  photo: images/sponsors/Facebook.png
+  url: https://www.facebook.com/
+- current: false
+  description: Equipment Sponsor
+  name: Anker
+  photo: images/sponsors/Anker.jpg
+  url: https://www.anker.com/
+- current: false
+  description: TechTalk
+  name: Salesforce
+  photo: images/sponsors/Salesforce_4YSmSMk.jpg
+  url: https://www.salesforce.com/

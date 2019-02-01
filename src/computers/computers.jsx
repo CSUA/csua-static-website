@@ -18,22 +18,22 @@ class ComputersList extends React.Component {
   }
 
   componentDidMount() {
-    fetch("/computers/json")
+    fetch("/api/computers/json")
       .then(res => res.json())
       .then(
-	(result) => {
-	  this.setState({
-	    isLoaded: true,
-	    computers: result.computers,
-	    users: result.users
-	  });
-	},
-	(error) => {
-	  this.setState({
-	    isLoaded: true,
-	    error
-	  });
-	}
+        (result) => {
+          this.setState({
+            isLoaded: true,
+            computers: result.computers,
+            users: result.users
+          });
+        },
+        (error) => {
+          this.setState({
+            isLoaded: true,
+            error
+          });
+        }
       )
   }
 
@@ -42,14 +42,14 @@ class ComputersList extends React.Component {
     if (error) {
       console.log(error);
       return <div>Error fetching data.</div>
-    } else if (!isLoaded) {
-      return <div>Loading...</div>
-    } else {
-      return <div>
-	<Computers computers={this.state.computers}/>
-	<Users users={this.state.users}/>
-      </div>
-    }
+      } else if (!isLoaded) {
+        return <div>Loading...</div>
+        } else {
+          return <div>
+            <Computers computers={this.state.computers}/>
+            <Users users={this.state.users}/>
+          </div>
+          }
   }
 }
 
@@ -58,14 +58,14 @@ class Computers extends React.Component {
     const computers = this.props.computers;
     return <table>
       {computers.map(computer =>
-	<tr>
-	  <td>{computer.hostname}</td>
-	  <td>{computer.user_id}</td>
-	  <td>{moment(computer.local_timestamp.fromNow())}</td>
-	</tr>
+      <tr>
+        <td>{computer.hostname}</td>
+        <td>{computer.user_id}</td>
+        <td>{moment(computer.local_timestamp).fromNow()}</td>
+      </tr>
       )}
     </table>
-  }
+    }
 }
 
 class Users extends React.Component {
@@ -73,14 +73,16 @@ class Users extends React.Component {
     const users = this.props.users;
     return <table>
       {users.map(user =>
-	<tr>
-	  <td>{user.username}</td>
-	  <td>{moment(user.last_ping).fromNow()}</td>
-	  <td>{moment().startOf('day').add(user.time_spent, 'seconds').format('HH:mm:ss')}</td>
-	</tr>
+      <tr>
+        <td>{user.username}</td>
+        <td>{moment(user.last_ping).fromNow()}</td>
+        <td>{moment().startOf('day').add(user.time_spent, 'seconds').format('HH:mm:ss')}</td>
+      </tr>
       )}
     </table>
-  }
+    }
 }
 
 ReactDOM.render(<ComputersList />, document.getElementById('computers-list'));
+
+// vim:et:sw=2:
