@@ -8,6 +8,7 @@ exclude:
   - csv2yaml.py
   - json2yaml.py
   - drive.py
+  - node_modules
 
 kramdown:
   show_warnings: true

@@ -1,0 +1,37 @@
+{
+  "name": "static-website",
+  "version": "1.0.0",
+  "description": "CSUA static website using Jekyll",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSUA/static-website.git"
+  },
+  "author": "Philip Nunez",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/CSUA/static-website/issues"
+  },
+  "homepage": "https://github.com/CSUA/static-website#readme",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
+}
