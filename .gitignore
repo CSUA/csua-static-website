@@ -1,7 +1,5 @@
 assets
-Gemfile
 _site
-Gemfile.lock
 .bundle
 vendor
 node_modules
