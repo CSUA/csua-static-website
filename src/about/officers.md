@@ -86,7 +86,7 @@ about tutoring][tutoring]
 {% elsif officer.video2 %}
 <img class="photoone" src="https://www.csua.berkeley.edu/media/{{ officer.photo1 }}">
 <video class="videotwo" loop nocontrols onmouseover="play()" onmouseoff="pause()">
-<source src="https://www.csua.berkeley.edu/media/{{ officer.video2 }}" type="video/mp4"></source>
+<source src="https://www.csua.berkeley.edu/media/{{ officer.video2 }}" type="video/mp4">
 </video>
 {% else %}
 <img class="single" src="https://www.csua.berkeley.edu/media/{{ officer.photo1 | default:"images/officers/cardigan.jpg" }}">

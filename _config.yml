@@ -1,16 +1,12 @@
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - README
-  - pull.sh
-  - deploy.sh
-  - csv2yaml.py
-  - json2yaml.py
-  - drive.py
-  - node_modules
+source: src
+
+destination:
+
+baseurl:
 
 kramdown:
   show_warnings: true
 
 description: The Computer Science Undergraduate Association at UC Berkeley (CSUA)
+
+semester: sp19

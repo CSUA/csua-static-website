@@ -29,7 +29,7 @@ lounge (341\* Soda).
 
 # Upcoming Events
 
-{% assign events = site.data.events.fa18 %}
+{% assign events = site.data.events[site.semester] %}
 {% assign upcoming = "" | split:"" %}
 {% assign nowepoch = "now" | date:"%s" %}
 {% for event in events %}
@@ -49,7 +49,7 @@ lounge (341\* Soda).
 <div class="row">
 
 <div markdown="1" class="block" id="officer-image">
-![CSUA Officers at Hearst Mining Circle]({{site.baseurl}}{% link assets/images/tushar_photoshoots/Officers_FA16.jpg %})
+![CSUA Officers at Hearst Mining Circle]({{ site.baseurl }}{% link assets/images/tushar_photoshoots/Officers_FA16.jpg %})
 </div>
 
 <div markdown="1" class="block">

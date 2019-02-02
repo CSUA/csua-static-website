@@ -18,7 +18,7 @@ politburo@csua.berkeley.edu.
 {% assign unames = "president, vp, indrel, treasurer, externalevents, internalevents, outreach" | split:", " %}
 
 {% for pb_roster in site.data.pb %}
-{% if pb_roster.semester == "Fall 2018" %}
+{% if pb_roster.semester == site.semester %}
 
 <div class="politburo">
 {% for title in titles %}

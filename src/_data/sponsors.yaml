@@ -113,6 +113,11 @@
   name: Cisco Meraki
   photo: images/sponsors/Cisco_Meraki.jpg
   url: http://www.meraki.com/
+- current: true
+  description: TechTalk
+  name: Yelp
+  photo: images/sponsors/Yelp.png
+  url: http://www.yelp.com/
 - current: false
   description: TechTalk
   name: Yelp
@@ -168,6 +173,11 @@
   name: Cisco
   photo: images/sponsors/Cisco.jpg
   url: http://www.cisco.com/c/en/us/index.html
+- current: true
+  description: Puzzle Hunt
+  name: Facebook
+  photo: images/sponsors/Facebook.png
+  url: https://www.facebook.com/
 - current: false
   description: Puzzle Hunt
   name: Facebook
