@@ -1,4 +1,5 @@
 Getting started:
+================
 
 Install jekyll:
 
@@ -8,8 +9,17 @@ Serve files:
 
 $ bundle exec jekyll serve
 
+Install webpack/javascript dependencies
+
+$ npm install
+
+Build Javascript:
+
+$ webpack
+
 
 Misc commands
+=============
 
 jq command to convert old database
 
