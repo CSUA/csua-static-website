@@ -80,7 +80,7 @@ To become an officer, [fill out this form][officer_app], and come to one of our 
 # Get Connected
 
 By creating a CSUA account, you have an option to join the jobs@csua mailing list.
-If you would like to join, visit
+If you would like to be added, please contact an officer!
 
 We use Slack for most of our day-to-day communications. [Join our Slack][slack] (requires an @berkeley.edu email).
 
